@@ -44,6 +44,6 @@ DB_URL=postgres://postgres:postgres@postgres:5432/postgres
   ## 📚 API Documentation
 
 - API documentation is available at `/api-docs` when running the server.
-- Open Swagger api docs for project by using [text](http://localhost:3000/apidocs#/) url once project is started.
+- Open Swagger api docs for project by using [localhost:3000/apidocs#/](http://localhost:3000/apidocs#/) url once project is started.
 
 ![alt text](swagger.png)
