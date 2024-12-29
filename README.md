@@ -4,7 +4,7 @@ These are the APIs for a grocery shop.
 
  Utilized Postgres as the Relational Database and built the application using Nest.js with Typescript for strict type checking and the project structure is fully modules based.
 
-Managing Role Based Authentication and API access was also a key focus. Developed idempotency check to reduce duplicate orders, using errors added logging for failed transactions. 
+ Developed idempotency check to reduce duplicate orders, using errors added logging for failed transactions. 
  Docker was used for containerizing the project and database to facilitate deployment and maintenance.
 
  ## 🚀 Features
