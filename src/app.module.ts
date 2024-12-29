@@ -17,7 +17,7 @@ import { LoggerModule } from 'nestjs-pino';
       inject: [ConfigService],
       useFactory: (configService: ConfigService) => ({
         type: 'postgres',
-        url:configService.get('DB_USERNAME'),
+        url:configService.get('DB_URL'),
         entities: [join(process.cwd(), 'dist/**/*.entity.js')],
         logging: true,
         synchronize: true,
